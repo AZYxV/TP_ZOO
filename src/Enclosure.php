@@ -11,6 +11,7 @@ class Enclosure
         $this->animals[] = $animals;
     }
 
+    // Mise en forme de l'affichage des animaux et de leur son
     public function __toString(): string
     {
         $output = '';

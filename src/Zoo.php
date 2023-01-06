@@ -4,6 +4,7 @@ namespace App;
 
 class Zoo
 {
+    // 3 Prpoprieté privé, statique de type Enclosure
     private static ?Enclosure $aquarium = null;
     private static ?Enclosure $aviary = null;
     private static ?Enclosure $fence = null;
@@ -23,6 +24,7 @@ class Zoo
         return self::$fence;
     }
 
+    // Fonction me permettant d'ajouter les animaux dans les bon enclos
     public static function addAnimal(Animal $animal): void
     {
         if($animal instanceof CanSwim) {
@@ -43,6 +45,7 @@ class Zoo
         }
     }
 
+    // Fonction d'affichage des différents enclos
     public static function visitTheZoo(): void
     {
         if(self::$aquarium != null) {

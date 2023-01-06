@@ -3,7 +3,7 @@ namespace App;
 
 require __DIR__ . '/vendor/autoload.php';
 
- $animals = [];
+ // Création de boucle for pour ajouter mes instances d'animaux dans la fonction addAnimal
 
  // Fish
  for($i=1;$i<=5;$i++) {
@@ -39,5 +39,7 @@ for($i=1;$i<=10;$i++) {
 for($i=1;$i<=2;$i++) {
     Zoo::addAnimal(new Dove("Dove $i"));
 }
+
+// J'affiche la liste des différents enclos
 
 echo Zoo::visitTheZoo();

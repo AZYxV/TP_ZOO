@@ -7,15 +7,9 @@
     <list default="true" id="32e0c751-2f36-4089-a51d-a671ac84c0b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BubbleFish.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleFish.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatFish.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatFish.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClownFish.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClownFish.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dove.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dove.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elephant.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elephant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fish.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fish.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parrot.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parrot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Whale.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Whale.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zebra.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zebra.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zoo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672929326328</updated>
       <workItem from="1672929327932" duration="2888000" />
-      <workItem from="1672990355918" duration="6867000" />
+      <workItem from="1672990355918" duration="8000000" />
     </task>
     <servers />
   </component>
