@@ -7,39 +7,37 @@ require __DIR__ . '/vendor/autoload.php';
 
  // Fish
  for($i=1;$i<=5;$i++) {
-     $animals[] = new Fish("Fish $i");
+     Zoo::addAnimal(new Fish("Fish $i"));
  }
 
  // BubbleFish
 for($i=1;$i<=3;$i++) {
-    $animals[] = new BubbleFish("BubbleFish $i");
+    Zoo::addAnimal(new BubbleFish("BubbleFish $i"));
 }
 
  // CatFish
 for($i=1;$i<=2;$i++) {
-    $animals[] = new Fish("CatFish $i");
+    Zoo::addAnimal(new CatFish("CatFish $i"));
 }
  // ClownFish
-$animals[] = new ClownFish("ClownFish");
+    Zoo::addAnimal(new ClownFish("ClownFish"));
 
 // Elephant
 for($i=1;$i<=2;$i++) {
-    $animals[] = new Elephant("Elephant $i");
+    Zoo::addAnimal(new Elephant("Elephant $i"));
 }
 
 // Zebra
-$animals[] = new Zebra("Zebra");
+Zoo::addAnimal(new Zebra("Zebra"));
 
  // Parrot
 for($i=1;$i<=10;$i++) {
-    $animals[] = new Parrot("Parrot $i");
+    Zoo::addAnimal(new Parrot("Parrot $i"));
 }
 
 // Dove
 for($i=1;$i<=2;$i++) {
-    $animals[] = new Dove("Dove $i");
+    Zoo::addAnimal(new Dove("Dove $i"));
 }
 
-foreach ($animals as $animal){
-    echo 'Le '.$animal->getName().' fait '.$animal->noise()."\n";
-}
+echo Zoo::visitTheZoo();

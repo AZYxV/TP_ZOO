@@ -2,7 +2,7 @@
 
 namespace App;
 
-class ClownFish extends Animal
+class ClownFish extends Animal implements CanSwim
 {
     public function getNoise(): string
     {

@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Parrot extends Animal
+class Parrot extends Animal implements CanFly
 {
     public function getNoise(): string
     {
